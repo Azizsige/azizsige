@@ -1,5 +1,6 @@
 <script setup>
 import TheWindow from './../components/TheWindow.vue';
+import TheTerminal from './../components/TheTerminal.vue';
 
 import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
@@ -119,6 +120,14 @@ onMounted(() => {
           href="https://www.linkedin.com/in/azizsige/" target="_blank">
           <font-awesome-icon icon="fa-brands fa-linkedin" />
         </a>
+        <!-- <a class="flex items-center justify-center w-12 h-12 text-2xl bg-[var(--color-quinary)] shadow-solid rounded-xl border-4 border-black hover:translate-y-[5px] hover:translate-x-[5px] hover:shadow-none duration-100"
+          href="https://discord.com/users/748539900793716887" target="_blank">
+          <font-awesome-icon icon="fa-brands fa-discord" />
+        </a>
+        <a class="flex items-center justify-center w-12 h-12 text-2xl bg-[var(--color-quaternary)] shadow-solid rounded-xl border-4 border-black hover:translate-y-[5px] hover:translate-x-[5px] hover:shadow-none duration-100"
+          href="https://reddit.com/u/lareidev" target="_blank">
+          <font-awesome-icon icon="fa-brands fa-reddit" />
+        </a> -->
         <a class="flex items-center justify-center w-12 h-12 text-2xl bg-[var(--color-senary)] shadow-solid rounded-xl border-4 border-black hover:translate-y-[5px] hover:translate-x-[5px] hover:shadow-none duration-100"
           href="https://wa.me/6289677144304" target="_blank">
           <font-awesome-icon icon="fa-brands fa-whatsapp" />
@@ -126,4 +135,15 @@ onMounted(() => {
       </div>
     </div>
   </main>
+
+  <!--
+    <div class="bg-[var(--color-primary)]">1</div>
+    <div class="bg-[var(--color-secondary)]">2</div>
+    <div class="bg-[var(--color-tertiary)]">3</div>
+    <div class="bg-[var(--color-quaternary)]">4</div>
+    <div class="bg-[var(--color-quinary)]">5</div>
+    <div class="bg-[var(--color-senary)]">6</div>
+    <div class="bg-[var(--color-septenary)]">7</div>
+    <div class="bg-[var(--color-octonary)]">8</div>
+  -->
 </template>
