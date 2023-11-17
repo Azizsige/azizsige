@@ -1,6 +1,5 @@
 <script setup>
 import TheWindow from './../components/TheWindow.vue';
-import TheTerminal from './../components/TheTerminal.vue';
 
 import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
